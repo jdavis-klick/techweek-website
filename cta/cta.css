@@ -1,0 +1,58 @@
+body {
+font: 14px Arial,sans-serif;
+}
+
+.home-containerx {
+    background: url("images/home-banners.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 402px;
+    margin: 0;
+    position: relative;
+    width: 996px;
+}
+
+.home-box {
+    background: url("images/patient1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    margin: 0;
+    min-height: 203px;
+    padding: 12px 0 0;
+    position: relative;
+    width: 490px;
+	border: 1px solid black;
+}
+
+.home-box h3 {
+    color: #353279;
+    font-family: 'droid_serifbold_italic';
+    font-size: 26px;
+    font-style: italic;
+	margin: 15px 0 0 182px;
+}
+
+.home-box p {
+font-size: 14px;
+margin: 0 0 0 182px;
+}
+
+.home-box a {
+    background: url("images/arrow-resource.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    bottom: 12px;
+    left: 14px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 21px;
+    padding-right: 25px;
+    position: absolute;
+    text-decoration: none;
+}
+
+.nobr {white-space: nowrap;}
+
+.home-box .cta-link-holder {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #DDD;
+	height: 42px;
+}

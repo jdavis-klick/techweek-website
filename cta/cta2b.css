@@ -1,0 +1,12 @@
+.home-box {margin-left: 12px;}
+.home-box:first-child {margin-left: 0;}
+
+
+.home-box.b1 {
+    background: url("images/patient1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.home-box.b2 {
+    background: url("images/two-patients.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+

@@ -1,0 +1,50 @@
+<style>
+div.menu {margin-top: 24px;}
+div.menu {text-align: right}
+div.menu a {color: black; font-family: sans-serif}
+
+#ex2, #ex3 {display: none}
+</style>
+
+<h1>At first this looks good</h1>
+<div class='menu'>
+  <a href='#'>Full Prescribing Information</a> | <a href='#'>Contact Us</a> | <a href='#'>Healthcare Professional</a>
+</div>
+
+<p>
+<a href='javascript: document.getElementById("ex2").style.display = "block";void(0)'>So let's add an Admin menu item</a>
+</p>
+
+<div id='ex2'>
+
+<pre>
+&lt;div class='menu' &gt;
+  &lt;a href='#'&gt;Full Prescribing Information&lt;/a&gt; | &lt;a href='#'&gt;Contact Us&lt;/a&gt; | &lt;a href='#'&gt;Admin&lt;/a&gt; | &lt;a href='#'&gt;Healthcare Professional&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+
+<div class='menu' >
+  <a href='#'>Full Prescribing Information</a> | <a href='#'>Contact Us</a> | <a href='#'>Admin</a> | <a href='#'>Healthcare Professional</a>
+</div>
+
+
+<a href='javascript: document.getElementById("ex3").style.display = "block";void(0)'>Make Admin item be conditional</a>
+</p>
+</div>
+
+<div id='ex3'>
+
+<pre>
+&lt;div class='menu' &gt;
+  &lt;a href='#'&gt;Full Prescribing Information&lt;/a&gt; | &lt;a href='#'&gt;Contact Us&lt;/a&gt; | | &lt;a href='#'&gt;Healthcare Professional&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+
+
+
+<div class='menu' >
+  <a href='#'>Full Prescribing Information</a> | <a href='#'>Contact Us</a> |  | <a href='#'>Healthcare Professional</a>
+</div>
+
+
+</div>

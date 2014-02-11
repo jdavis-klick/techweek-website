@@ -1,0 +1,7 @@
+ul.menu {font-family: arial, sans-serif}
+ul.menu {list-style: none; padding: 0}
+ul.menu li {display: inline-block}
+ul.menu li:before {content: "| "}
+ul.menu li:first-child:before {content: ""}
+ul.menu li a {color: black}
+
